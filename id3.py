@@ -193,6 +193,7 @@ def main():
     decision_tree(titanic, None, titanic_labels, None)
     node1 = TREE[0]
     node1.print_tree(0, TREE)
+    return TREE
 
 
 main()
